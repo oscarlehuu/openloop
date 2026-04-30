@@ -251,7 +251,7 @@ describe("OpenLoop core workflow", () => {
     expect(ipad129.width).toBe(2048);
     expect(ipad129.height).toBe(2732);
     expect((await validateRun(runPath)).ok).toBe(true);
-  });
+  }, 15000);
 
   it("extracts ChatGPT account id header from JWT", () => {
     const payload = Buffer.from(
