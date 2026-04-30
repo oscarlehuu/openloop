@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Screenshot Mode"
+  short_description: "Add deterministic app screenshot mode"
+  default_prompt: "Use $develop-screenshot-mode to inspect this app and add screenshot mode only if it is missing."

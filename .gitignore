@@ -1,0 +1,12 @@
+node_modules/
+compiled/
+/runs/
+/.openloop/
+.[e]nv*
+openloop.config.local.json
+openloop.projects.json
+coverage/
+*.tsbuildinfo
+*.log
+.DS_Store
+product_ugc_samples.jpeg
