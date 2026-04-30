@@ -95,6 +95,7 @@ assets/images/    public README/demo assets
 OpenLoop is public source, but still early. Keep changes local-first, avoid SaaS assumptions, and never commit generated campaign assets, registry files, auth files, screenshots containing private data, or credentials.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the current contribution rules.
+See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [SUPPORT.md](SUPPORT.md), and [SECURITY.md](SECURITY.md) for community and reporting expectations.
 
 ## License
 

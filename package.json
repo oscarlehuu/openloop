@@ -23,10 +23,15 @@
     "node": ">=20"
   },
   "files": [
-    "compiled",
+    "assets/images/openloop-demo.svg",
+    "compiled/src",
     "docs",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "SUPPORT.md"
   ],
   "bin": {
     "openloop": "compiled/src/cli/openloop-cli.js"
@@ -37,6 +42,7 @@
     "dev": "tsx src/dashboard/dashboard-server.ts",
     "dev:cli": "tsx src/cli/openloop-cli.ts",
     "openloop": "tsx src/cli/openloop-cli.ts",
+    "prepack": "npm run build",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
