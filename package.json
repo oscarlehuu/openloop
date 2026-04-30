@@ -23,7 +23,7 @@
     "node": ">=20"
   },
   "files": [
-    "assets/images/openloop-demo.svg",
+    "assets/images",
     "compiled/src",
     "docs",
     "README.md",

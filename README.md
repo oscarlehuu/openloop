@@ -1,13 +1,21 @@
 # OpenLoop
 
 <p align="center">
-  <img src="assets/images/openloop-demo.svg" alt="OpenLoop dashboard and campaign asset workflow demo" />
+  <img src="assets/images/quickshift-app-ads-storyboard.webp" alt="OpenLoop generated QuickShift app ad storyboard" width="760" />
+</p>
+
+<p align="center">
+  <img src="assets/images/quickshift-app-store-01.webp" alt="QuickShift App Store screenshot: run your venue with QuickShift" width="150" />
+  <img src="assets/images/quickshift-app-store-02.webp" alt="QuickShift App Store screenshot: roster your team in minutes" width="150" />
+  <img src="assets/images/quickshift-app-store-03.webp" alt="QuickShift App Store screenshot: manage shifts from anywhere" width="150" />
+  <img src="assets/images/quickshift-app-store-04.webp" alt="QuickShift App Store screenshot: track worked hours accurately" width="150" />
+  <img src="assets/images/quickshift-app-store-05.webp" alt="QuickShift App Store screenshot: cut admin and payroll errors" width="150" />
 </p>
 
 [![CI](https://github.com/oscarlehuu/openloop/actions/workflows/ci.yml/badge.svg)](https://github.com/oscarlehuu/openloop/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-OpenLoop is a local-first CLI and dashboard for turning project context into marketing assets. It scans a local app or product repo, builds a compact campaign brief, plans workflow-specific assets, generates images, renders local copy overlays, and exports upload-ready files.
+OpenLoop is a local-first CLI and dashboard for turning project context into marketing assets. It scans a local app or product repo, builds a compact campaign brief, plans workflow-specific assets, generates images, renders local copy overlays, and exports upload-ready files. The QuickShift assets above were generated from local project context and real app screenshots.
 
 The repo is early. Expect rough edges, but the public surface is intentionally small: source, tests, docs, CI, and safe default config only.
 
